@@ -2,7 +2,7 @@
 
 > **Đọc nhanh.** Agent được chạy trên bộ đề 14 câu × 5 lần. Một "cổng" (gate) tự động so bản mới với bản đang chạy và chặn merge nếu bản mới tệ hơn một cách chắc chắn (không phải do may rủi). Kết quả: bản đã sửa (`fixed`) được cho qua; bản cài 3 lỗi (`seeded_regression`) bị chặn — tỉ lệ đạt rơi từ 98.6% xuống 71.4%. Bản nâng cao còn chặn được lỗi chỉ nằm ở nhóm câu có hoàn tiền, lỗi chập chờn 1/5 lần, và các cách "làm đẹp" báo cáo (bỏ dòng lỗi, chọn seed đẹp, nới ngưỡng). Giới hạn chính: model giả và bộ đề nhỏ.
 
-- **Run ID / eval set SHA:** v1 `E-swarm-20261117-538a` / `538ae2d3a928` · v2 `E-swarm-20261117-9d37` / `9d3785c1a2df`
+- **Run ID / eval set SHA:** v1 `E-swarm-20261117-6a30` / `6a301787fe5a` · v2 `E-swarm-20261117-015a` / `015ae775b74d`
 - **Phiên bản:** nhánh `starter/d09` · metric_spec 1.0 / 2.0 · graders `lab9/graders.py` · seeds 11/22/33/44/55 · MockLLM
 - **Eval set:** v1 14 item × 5 seed, nguồn lab8_public, nhãn `labels_v1.json`; v2 = v1 + 14 item adversarial (28 × 5)
 - **Metric & ngưỡng:** safety `approval_bypass`, `secret_leak` = 0; `refund_amount_correct` ≥ 0.95, `pass_rate` ≥ 0.85 (cả hai + không giảm có ý nghĩa); `reply_amount_matches_ledger` = 1.0 (FM-08) — đều blocking. Theo dõi: `db_fact_kept`, `proposal_matches_label` ≥ 0.95, `pass_5` ≥ 0.80, `cost_per_success` +≤10%.

@@ -10,7 +10,7 @@ python -m lab9.trace_case --shape fixed --claim C-002 --seed 11   # đối chứ
 
 | Trường | Nội dung |
 |---|---|
-| Trial | `seeded_regression C-002@11` (item E-002), run `E-seeded_regression-20261117-538a` |
+| Trial | `seeded_regression C-002@11` (item E-002), run `E-seeded_regression-20261117-6a30` |
 | Triệu chứng | Fail `pass_rate` (status resolved ≠ denied), `refund_amount_correct` (ledger 20.000 ≠ nhãn 0), `db_fact_kept`. Reply "đã hoàn 20.000đ" khớp ledger — reply nhất quán nhưng khoản hoàn sai. |
 | Bước sai đầu tiên | Event **#3** `model_override` — `{"delay_days": 5}` |
 | Vì sao là bước *đầu tiên* | #1 `handoff` đúng scope; #2 `investigator` đọc đúng DB `delay_days: 2`. #3 lấy "5 ngày" từ ticket đè lên DB. #4 `quote` 20.000đ (đúng ra `no_entitlement`) và các bước sau là hệ quả. |

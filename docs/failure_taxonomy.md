@@ -33,9 +33,9 @@ Quy tắc: mỗi FM phải quan sát được trên trace, không phải phỏng
 | C-006 | FM-06 | C-013 | FM-02, FM-05 |
 | C-007 | FM-02, FM-04 | C-014 | FM-04, FM-05, FM-08 |
 
-`evalset --build --check` → `538ae2d3a928: 0 problem(s)`.
+`evalset --build --check` → `6a301787fe5a: 0 problem(s)`.
 
-**v2** (`config/fm_map.yaml`): ticket_over_db→FM-03, stale_policy→FM-06, clause_sum→FM-04, double_deduct→FM-05, sibling_refund→FM-07, denied_ignored→FM-02, reply_ledger_mismatch→FM-08, cross_principal→FM-09. Số item/FM trong v2: FM-03 3, FM-06 3, FM-09 3, FM-02 4, FM-08 4, FM-07 5, FM-05 6, FM-04 9 (đều ≥ 3). `evalset --v2 --build` → `9d3785c1a2df: 0 problem(s)`.
+**v2** (`config/fm_map.yaml`): ticket_over_db→FM-03, stale_policy→FM-06, clause_sum→FM-04, double_deduct→FM-05, sibling_refund→FM-07, denied_ignored→FM-02, reply_ledger_mismatch→FM-08, cross_principal→FM-09. Số item/FM trong v2: FM-03 3, FM-06 3, FM-09 3, FM-02 4, FM-08 4, FM-07 5, FM-05 6, FM-04 9 (đều ≥ 3). `evalset --v2 --build` → `015ae775b74d: 0 problem(s)`.
 
 ## Phụ lục — probe shape
 
