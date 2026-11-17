@@ -1,0 +1,3 @@
+# The eval-set SHA is computed over raw bytes: keep data files LF on every OS,
+# or a Windows checkout (CRLF) and the Linux CI (LF) see different eval sets.
+src/data/** text eol=lf
