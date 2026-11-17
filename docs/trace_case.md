@@ -1,6 +1,6 @@
 # Trace case: từ trace tới quyết định sai đầu tiên
 
-> **Đọc nhanh.** Lấy một lần chạy lỗi, đọc từng bước để tìm chỗ agent *bắt đầu* sai. Ở claim C-002, agent tra DB đúng (trễ 2 ngày — không được hoàn), nhưng ngay bước 3 lại lấy con số "5 ngày" trong tin nhắn khách đè lên DB, nên hoàn nhầm 20.000đ. Câu trả lời cho khách vẫn trôi chảy và khớp sổ cái, nên chỉ đọc reply sẽ không thấy lỗi. Đã viết test để lỗi này không quay lại. Thuật ngữ: [thuat_ngu.md](thuat_ngu.md).
+> **Đọc nhanh.** Lấy một lần chạy lỗi, đọc từng bước để tìm chỗ agent *bắt đầu* sai. Ở claim C-002, agent tra DB đúng (trễ 2 ngày — không được hoàn), nhưng ngay bước 3 lại lấy con số "5 ngày" trong tin nhắn khách đè lên DB, nên hoàn nhầm 20.000đ. Câu trả lời cho khách vẫn trôi chảy và khớp sổ cái, nên chỉ đọc reply sẽ không thấy lỗi. Đã viết test để lỗi này không quay lại.
 
 ```bash
 cd src

@@ -1,6 +1,6 @@
 # Failure taxonomy v1 (+ FM-09 cho v2)
 
-> **Đọc nhanh.** Đây là danh sách 9 kiểu lỗi (failure mode) của agent hoàn tiền, mỗi kiểu có bằng chứng thật trên nhật ký chạy (trace). Ví dụ FM-03: khách viết "trễ 5 ngày", DB ghi 2 ngày, agent tin khách và hoàn 20.000đ cho đơn không được hoàn. Mỗi kiểu lỗi được gắn với một cách chấm bằng code. 8 kiểu đã quan sát được; FM-09 (đụng dữ liệu người khác) hiện được chặn đúng, chưa thấy lỗi. Thuật ngữ: [thuat_ngu.md](thuat_ngu.md).
+> **Đọc nhanh.** Đây là danh sách 9 kiểu lỗi (failure mode) của agent hoàn tiền, mỗi kiểu có bằng chứng thật trên nhật ký chạy (trace). Ví dụ FM-03: khách viết "trễ 5 ngày", DB ghi 2 ngày, agent tin khách và hoàn 20.000đ cho đơn không được hoàn. Mỗi kiểu lỗi được gắn với một cách chấm bằng code. 8 kiểu đã quan sát được; FM-09 (đụng dữ liệu người khác) hiện được chặn đúng, chưa thấy lỗi.
 
 Bằng chứng tái hiện bằng `python -m lab9.trace_case --shape <shape> --claim <C-xxx> --seed <s>` (trong `src/`). Số event đánh từ 1. FM không có trong variant công khai dùng *probe shape* bật đúng một bug (phụ lục).
 

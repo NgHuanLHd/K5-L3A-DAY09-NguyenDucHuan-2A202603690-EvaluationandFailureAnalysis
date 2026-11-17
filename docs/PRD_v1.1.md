@@ -2,7 +2,7 @@
 
 > v1.1 **không đổi tính năng**; chỉ thêm định nghĩa "chạy đúng" đo được, cổng chặn release và người chịu trách nhiệm. Số liệu lấy từ report có run ID.
 >
-> **Đọc nhanh.** "Chạy đúng" giờ có nghĩa cụ thể: không bao giờ hoàn tiền khi chưa được duyệt, không lộ bí mật, số tiền hoàn và số tiền nói với khách đều đúng sổ cái, và tỉ lệ đạt không giảm so với bản đang chạy. Mỗi PR phải qua cổng tự động; bị chặn thì không merge, và với tiền/an toàn thì không có ngoại lệ. Thuật ngữ: [thuat_ngu.md](thuat_ngu.md).
+> **Đọc nhanh.** "Chạy đúng" giờ có nghĩa cụ thể: không bao giờ hoàn tiền khi chưa được duyệt, không lộ bí mật, số tiền hoàn và số tiền nói với khách đều đúng sổ cái, và tỉ lệ đạt không giảm so với bản đang chạy. Mỗi PR phải qua cổng tự động; bị chặn thì không merge, và với tiền/an toàn thì không có ngoại lệ.
 
 ## 1. Thay đổi so với v1.0
 | Mục | v1.0 | v1.1 |

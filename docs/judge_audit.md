@@ -1,6 +1,6 @@
 # Judge audit
 
-> **Đọc nhanh.** Trước khi để một LLM chấm bài (judge), ta chấm chính judge đó bằng cách so với người chấm trên 100 câu trả lời. Judge **giọng điệu** đạt chuẩn: bắt được 80% câu có giọng không phù hợp, ít báo oan. Judge **hữu ích** bị loại: nó bỏ sót 21/30 câu trả lời kém — phần lớn là câu nói sai số tiền, thứ judge không thể thấy vì không đọc sổ cái. Việc kiểm số tiền vì vậy giao cho code. Thuật ngữ (precision, recall, κ…): [thuat_ngu.md](thuat_ngu.md).
+> **Đọc nhanh.** Trước khi để một LLM chấm bài (judge), ta chấm chính judge đó bằng cách so với người chấm trên 100 câu trả lời. Judge **giọng điệu** đạt chuẩn: bắt được 80% câu có giọng không phù hợp, ít báo oan. Judge **hữu ích** bị loại: nó bỏ sót 21/30 câu trả lời kém — phần lớn là câu nói sai số tiền, thứ judge không thể thấy vì không đọc sổ cái. Việc kiểm số tiền vì vậy giao cho code.
 
 Chạy: `python -m lab9.judge --csv <file> --audit 5`. FAIL là lớp dương.
 
